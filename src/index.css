@@ -1,17 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Piazzolla:opsz,wght@8..30,500&display=swap');
 
-*{
-  box-sizing: border-box;
-}
 
-html{
-  font-size: 18px;
-}
-
-body{
+body {
   margin: 0;
-  font-family: Quicksand,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Piazzolla', serif;
 }
-a{
-  text-decoration: none;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.nav-link{
+  color: black !important;
+}
+
+.navbar-brand{
+  color: black !important;
+}
+h1{
+  color:black !important;
+}
+
+.flex-container{
+  display: flex !important;
+
+}
+.btn{
+  background-color: red !important;
+  color: white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
 }
